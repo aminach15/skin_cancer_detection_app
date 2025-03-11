@@ -1,16 +1,19 @@
-# my_skin_cancer_app
+📱 Mobile Skin Cancer Detection App  
 
-A new Flutter project.
+This is a Flutter-based mobile application designed to help detect skin cancer from skin lesion images using a deep learning model. The app allows users to take or upload photos of skin lesions and provides a prediction based on trained AI models.  
 
-## Getting Started
+✨ Features  
+📸 Capture or upload skin lesion images.  
+🤖 AI-based prediction using a customized pre-trained deep learning model.  
+⚙️ Simple, easy-to-use interface built with Flutter.  
+📊 Display prediction results to inform users of possible skin cancer risks.  
 
-This project is a starting point for a Flutter application.
+🚀 Technologies Used  
+- Flutter for cross-platform mobile app development.  
+- TensorFlow Lite for on-device AI inference.  
+- Python for model training (outside this repo).  
 
-A few resources to get you started if this is your first Flutter project:
+🧠 AI Model
+The app uses a customized deep learning model trained on a dataset of skin lesion images to classify images as benign or malignant.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note: This app is not a substitute for professional medical diagnosis. Always consult a healthcare provider for accurate diagnosis and treatment.
